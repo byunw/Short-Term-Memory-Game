@@ -1,0 +1,35 @@
+body{
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+#combination{
+    
+    color:red;
+    font-size:20px;
+
+
+}
+
+#button{
+
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+   
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.wrapper2{
+    text-align: center;
+}
+
+#user-score{
+    font-size: 40px;
+}
