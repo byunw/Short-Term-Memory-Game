@@ -6,41 +6,52 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="short term memory game">
+    <link rel="icon" type="image/png" href="brain.png"/>
 
+    
 </head>
 
 <body>
     
     <h1>You are here to test and boost your short-term memory!</h1>
+    
+    <div id="rule">
 
-    <p>
-        Instruction: You will be given exactly 10 questions. For each question, you will be given 3 seconds to memorize the combination.
-        Then, the combination will disappear, and you will have to type what you memorized within 10 seconds.
-        Click start button to initiate the game!
-    </p>
+        <h2>Instruction:</h2>
+        <p>
+            You will be given exactly 10 questions.
+        </p>
 
-    <br>
+        <p>
+            For each question, you will be given 3 seconds to memorize the combination.
+        </p>
+
+        <p>
+            Then, the combination will disappear, and you will have to type what you memorized within 10 seconds.
+        </p>
+        <br>
+        
+        <p>
+            Click start button to initiate the game!
+        </p>
+    </div>
+    
     <br>
 
     <div class="wrapper">
         <button id="button" onclick="start()">Start</button>
     </div>
 
-    
     <div class="wrapper2">
 
         <p id="combination"></p>
         <br>
         <p id="instruction"></p>
-        <div id="form">    
+        <div id="form">   
         </div>
         <p id="user-score"></p>
-        
-
+        <p id="refresh"></p>
     </div>
-
-
-   
 
     <script src="script.js"></script>
     
